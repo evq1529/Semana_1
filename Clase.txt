@@ -1,0 +1,74 @@
+Crear una cuenta en github.com, usuario del profesor ericksc (aquí se debe realizar los envío de tareas).
+
+Con relación al proyecto final se documenta cuál es el problema. 
+
+Investigación: teoría de grafos.
+
+Proyecto final: programar algún algoritmo de discretas.
+
+Hay varias empresas que realizan distribuciones de Python una de ellas en Anaconda.org, Jupiter Notebook con soporte y paquetes diversos. 
+
+https://www.python.org/shell/ esta ventana permite correr comandos. 
+
+Instalarlo en C:\Python_3_7_2
+
+pip es un administrador de paquetes.
+IDLE interprete
+test suite instala libraría para hacer pruebas
+
+Reglas al programar: 
+-Identación (si algo no está identado no compila)
+-Autocontenido
+-Es sensitivo a las mayúsculas y minúsculas
+
+Primeros comandos:
+
+1. print(): envía información a pantalla o consola. Sintaxis: 2.x: print "hola", 3.x print("hola"). La coma concatena. Soporta una sola comilla y dos.
+
+Buscar cómo se limpia clear.
+import os
+os.system('cls')
+
+2. input(): almacena en memoria. Pyton hace referencia a la memoria de la computadora donde está la información (nombre a referencia en memoria eso es una variable en Python).
+
+3. int() - float() - str(): convierte a número entero - decimal - string. Al convertir un dato a otro lo almacena en una dirección de la memoria diferente.
+
+4. type: permite saber que tipo tiene una variable.
+
+5. help(): permite generar una ayuda sobre el nombre de un comando.
+
+6. Operadores: +, -, *, ** (potenciación), /, %, round sirve para redondear, // da la parte entera. Python admite tomar un string y multiplicarlo por un entero. + con dos string concatena. 
+
+7. len(): devuelve el número de elemenos que tenga una colección.
+
+8. del limpia una variable de la memoria. None es una palabra reservada asigna un valor nulo (no usa paréntesis).
+
+Los archivos guardados en Python tienen extensión py. La serialización (pickle) permite guardar una variable, son pickles files.
+
+xmind sirve para hacer mapas conceptuales o diagramas de flujo.
+
+9. #: realiza comentarios
+
+10. id: identificador devuelve el localizador en la memoria Ram.
+
+11. = asigna nombre a referencia en memoria del dato.
+
+Python tiene un recolector de basura lo que permite que limpia la sesión sobre datos no utilizados.
+
+Formateo:
+
+% dentro de un print permite imprimir el valor de una variable. print("Variable %d" % variable) la d convierte a valor decimal, la x hexadecimal, la f flotante, c solo un caracter, la e exponencial, la s si es un string, 8d justifica a la derecha, -8d justifica a la izquierda, .8d fuerza ocho dígitos, .5f cinco valores decimales. 
+
+Investigar cómo copiar: copy.copy(a) hay que importar el comando copy, import copy.
+
+
+
+
+
+
+
+
+
+
+
+
